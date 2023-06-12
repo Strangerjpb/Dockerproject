@@ -2,14 +2,14 @@
 version: "3"
 services:
   train:
-    image: rahamshaik/paytmmstrain:latest
+    image: strangerjpb/train:latest
     ports:
-      - 80:80
+      - 8000:80
   dth:
-    image: rahamshaik/paytmmsdth:latest
+    image: strangerjpb/dth:latest
     ports:
-      - 81:80
+      - 8001:80
   movies:
-    image: rahamshaik/paytmmsmovies:latest
+    image: strangerjpb/movies:latest
     ports:
-      - 82:80
+      - 8002:80
